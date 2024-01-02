@@ -1,2 +1,2 @@
-# Extracting from BR soloQ data from RIOT API, processing the data and loading into a mySQL database
+# ETL from RIOT API to mySQL DataBase
 ETL project using riot API.
