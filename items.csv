@@ -1,0 +1,455 @@
+itemId,itemName,itemCost
+1001,Boots,300
+1004,Faerie Charm,250
+1006,Rejuvenation Bead,300
+1011,Giant's Belt,500
+1018,Cloak of Agility,600
+1026,Blasting Wand,850
+1027,Sapphire Crystal,350
+1028,Ruby Crystal,400
+1029,Cloth Armor,300
+1031,Chain Vest,500
+1033,Null-Magic Mantle,450
+1035,Emberknife,350
+1036,Long Sword,350
+1037,Pickaxe,875
+1038,B. F. Sword,1300
+1039,Hailblade,350
+1040,Obsidian Edge,350
+1042,Dagger,300
+1043,Recurve Bow,400
+1052,Amplifying Tome,435
+1053,Vampiric Scepter,550
+1054,Doran's Shield,450
+1055,Doran's Blade,450
+1056,Doran's Ring,400
+1057,Negatron Cloak,450
+1058,Needlessly Large Rod,1250
+1082,Dark Seal,350
+1083,Cull,450
+1101,Scorchclaw Pup,450
+1102,Gustwalker Hatchling,450
+1103,Mosstomper Seedling,450
+1104,Eye of the Herald,0
+1500,Penetrating Bullets,0
+1501,Fortification,0
+1502,Reinforced Armor,0
+1503,Warden's Eye,0
+1504,Vanguard,0
+1506,Reinforced Armor,0
+1507,Overcharged,0
+1508,Anti-tower Socks,0
+1509,Gusto,0
+1510,Phreakish Gusto,0
+1511,Super Mech Armor,0
+1512,Super Mech Power Field,0
+1515,Turret Plating,0
+1516,Structure Bounty,0
+1517,Structure Bounty,0
+1518,Structure Bounty,0
+1519,Structure Bounty,0
+1520,OvererchargedHA,0
+1521,Fortification,0
+1522,Tower Power-Up,0
+2003,Health Potion,50
+2010,Total Biscuit of Everlasting Will,50
+2015,Kircheis Shard,350
+2019,Steel Sigil,225
+2031,Refillable Potion,150
+2033,Corrupting Potion,350
+2049,Guardian's Amulet,1000
+2050,Guardian's Shroud,1000
+2051,Guardian's Horn,950
+2052,Poro-Snax,0
+2055,Control Ward,75
+2065,Shurelya's Battlesong,550
+2138,Elixir of Iron,500
+2139,Elixir of Sorcery,500
+2140,Elixir of Wrath,500
+2141,Cappa Juice,700
+2142,Juice of Power,700
+2143,Juice of Vitality,700
+2144,Juice of Haste,700
+221038,B. F. Sword,1300
+221053,Vampiric Scepter,0
+221058,Needlessly Large Rod,1250
+222051,Guardian's Horn,1000
+222065,Shurelya's Battlesong,3000
+223001,Evenshroud,3000
+223003,Archangel's Staff,3000
+223004,Manamune,3000
+223005,Ghostcrawlers,1000
+223006,Berserker's Greaves,1000
+223009,Boots of Swiftness,1000
+223011,Chemtech Putrifier,3000
+223020,Sorcerer's Shoes,1000
+223026,Guardian Angel,3000
+223031,Infinity Edge,3000
+223033,Mortal Reminder,3000
+223036,Lord Dominik's Regards,3000
+223039,Atma's Reckoning,3000
+223040,Seraph's Embrace,3000
+223042,Muramana,3000
+223046,Phantom Dancer,3000
+223047,Plated Steelcaps,1000
+223050,Zeke's Convergence,3000
+223053,Sterak's Gage,3000
+223057,Sheen,700
+223065,Spirit Visage,3000
+223067,Kindlegem,0
+223068,Sunfire Aegis,3000
+223071,Black Cleaver,3000
+223072,Bloodthirster,3000
+223074,Ravenous Hydra,3000
+223075,Thornmail,3000
+223078,Trinity Force,3000
+223084,Heartsteel,3000
+223085,Runaan's Hurricane,3000
+223087,Statikk Shiv,3000
+223089,Rabadon's Deathcap,3000
+223091,Wit's End,3000
+223094,Rapid Firecannon,3000
+223095,Stormrazor,3000
+223100,Lich Bane,3000
+223102,Banshee's Veil,3000
+223105,Aegis of the Legion,450
+223107,Redemption,3000
+223109,Knight's Vow,3000
+223110,Frozen Heart,3000
+223111,Mercury's Treads,1000
+223112,Guardian's Orb,1000
+223115,Nashor's Tooth,3000
+223116,Rylai's Crystal Scepter,3000
+223119,Winter's Approach,3000
+223121,Fimbulwinter,3000
+223124,Guinsoo's Rageblade,3000
+223135,Void Staff,3000
+223139,Mercurial Scimitar,3000
+223142,Youmuu's Ghostblade,3000
+223143,Randuin's Omen,3000
+223146,Hextech Gunblade,3000
+223152,Hextech Rocketbelt,3000
+223153,Blade of The Ruined King,3000
+223156,Maw of Malmortius,3000
+223157,Zhonya's Hourglass,3000
+223158,Ionian Boots of Lucidity,1000
+223161,Spear of Shojin,3000
+223165,Morellonomicon,3000
+223172,Zephyr,3000
+223177,Guardian's Blade,1000
+223181,Hullbreaker,3000
+223184,Guardian's Hammer,1000
+223185,Guardian's Dirk,1000
+223190,Locket of the Iron Solari,3000
+223193,Gargoyle Stoneplate,3000
+223222,Mikael's Blessing,3000
+223504,Ardent Censer,3000
+223508,Essence Reaver,3000
+223742,Dead Man's Plate,3000
+223748,Titanic Hydra,3000
+223814,Edge of Night,3000
+224004,Spectral Cutlass,3000
+224005,Imperial Mandate,3000
+224401,Force of Nature,3000
+224403,The Golden Spatula,687
+224628,Horizon Focus,3000
+224629,Cosmic Drive,3000
+224633,Riftmaker,3000
+224636,Night Harvester,3000
+224637,Demonic Embrace,3000
+224644,Crown of the Shattered Queen,3000
+224645,Shadowflame,3000
+226035,Silvermere Dawn,3000
+226333,Death's Dance,3000
+226609,Chempunk Chainsword,3000
+226616,Staff of Flowing Water,3000
+226617,Moonstone Renewer,3000
+226620,Echoes of Helia,3000
+226630,Goredrinker,3000
+226631,Stridebreaker,3000
+226632,Divine Sunderer,3000
+226653,Liandry's Anguish,3000
+226655,Luden's Tempest,3000
+226656,Everfrost,3000
+226657,Rod of Ages,3000
+226662,Iceborn Gauntlet,3000
+226664,Turbo Chemtank,3000
+226665,"Jak'Sho, The Protean",3000
+226667,Radiant Virtue,3000
+226671,Galeforce,3000
+226672,Kraken Slayer,3000
+226673,Immortal Shieldbow,3000
+226675,Navori Quickblades,3000
+226676,The Collector,3000
+226691,Duskblade of Draktharr,3000
+226692,Eclipse,3000
+226693,Prowler's Claw,3000
+226694,Serylda's Grudge,3000
+226695,Serpent's Fang,3000
+226696,Axiom Arc,3000
+227001,Syzygy,0
+227002,Draktharr's Shadowcarver,0
+227005,Frozen Fist,0
+227006,Typhoon,0
+227009,Icathia's Curse,0
+227010,Vespertide,0
+227011,Upgraded Aeropack,0
+227012,Liandry's Lament,0
+227013,Eye of Luden,0
+227014,Eternal Winter,0
+227015,Ceaseless Hunger,0
+227016,Dreamshatter,0
+227017,Deicide,0
+227018,Infinity Force,0
+227019,Reliquary of the Golden Dawn,0
+227020,Shurelya's Requiem,0
+227021,Starcaster,0
+227023,Equinox,0
+227024,Caesura,0
+227025,Leviathan,0
+227026,The Unspoken Parasite,0
+227027,Primordial Dawn,0
+227028,Infinite Convergence,0
+227029,Youmuu's Wake,0
+227030,Seething Sorrow,0
+227031,Edge of Finality,0
+227032,Flicker,0
+227033,Cry of the Shrieking City,0
+228001,Anathema's Chains,3000
+228002,Wooglet's Witchcap,6000
+228003,Deathblade,9000
+228004,Adaptive Helm,6000
+228005,Obsidian Cleaver,3000
+228006,Sanguine Blade,3000
+228008,Runeglaive,9000
+228020,Abyssal Mask,3000
+2403,Minion Dematerializer,0
+2419,Commencing Stopwatch,0
+2420,Stopwatch,750
+2421,Broken Stopwatch,750
+2422,Slightly Magical Footwear,300
+2423,Perfectly Timed Stopwatch,750
+2424,Broken Stopwatch,750
+3001,Evenshroud,800
+3003,Archangel's Staff,550
+3004,Manamune,1050
+3005,Ghostcrawlers,700
+3006,Berserker's Greaves,500
+3009,Boots of Swiftness,600
+3011,Chemtech Putrifier,500
+3012,Chalice of Blessing,300
+3020,Sorcerer's Shoes,800
+3023,Lifewell Pendant,350
+3024,Glacial Buckler,250
+3026,Guardian Angel,150
+3031,Infinity Edge,625
+3033,Mortal Reminder,150
+3035,Last Whisper,750
+3036,Lord Dominik's Regards,950
+3039,Atma's Reckoning,925
+3040,Seraph's Embrace,3000
+3041,Mejai's Soulstealer,1250
+3042,Muramana,3000
+3044,Phage,350
+3046,Phantom Dancer,600
+3047,Plated Steelcaps,500
+3050,Zeke's Convergence,250
+3051,Hearthbound Axe,100
+3053,Sterak's Gage,625
+3057,Sheen,700
+3065,Spirit Visage,850
+3066,Winged Moonplate,400
+3067,Kindlegem,400
+3068,Sunfire Aegis,900
+3070,Tear of the Goddess,400
+3071,Black Cleaver,850
+3072,Bloodthirster,600
+3074,Ravenous Hydra,200
+3075,Thornmail,1000
+3076,Bramble Vest,200
+3077,Tiamat,325
+3078,Trinity Force,733
+3082,Warden's Mail,400
+3083,Warmog's Armor,500
+3084,Heartsteel,700
+3085,Runaan's Hurricane,1000
+3086,Zeal,200
+3087,Statikk Shiv,400
+3089,Rabadon's Deathcap,1100
+3091,Wit's End,950
+3094,Rapid Firecannon,850
+3095,Stormrazor,400
+3100,Lich Bane,550
+3102,Banshee's Veil,700
+3105,Aegis of the Legion,450
+3107,Redemption,550
+3108,Fiendish Codex,465
+3109,Knight's Vow,350
+3110,Frozen Heart,800
+3111,Mercury's Treads,350
+3112,Guardian's Orb,950
+3113,Aether Wisp,415
+3114,Forbidden Idol,550
+3115,Nashor's Tooth,750
+3116,Rylai's Crystal Scepter,415
+3117,Mobility Boots,700
+3119,Winter's Approach,1000
+3121,Fimbulwinter,2700
+3123,Executioner's Calling,450
+3124,Guinsoo's Rageblade,690
+3128,Deathfire Grasp,850
+3131,Sword of the Divine,800
+3133,Caulfield's Warhammer,400
+3134,Serrated Dirk,400
+3135,Void Staff,850
+3139,Mercurial Scimitar,225
+3140,Quicksilver Sash,850
+3142,Youmuu's Ghostblade,900
+3143,Randuin's Omen,800
+3145,Hextech Alternator,215
+3146,Hextech Gunblade,750
+3152,Hextech Rocketbelt,865
+3153,Blade of The Ruined King,825
+3155,Hexdrinker,500
+3156,Maw of Malmortius,275
+3157,Zhonya's Hourglass,350
+3158,Ionian Boots of Lucidity,650
+3161,Spear of Shojin,525
+3165,Morellonomicon,715
+3172,Zephyr,900
+3177,Guardian's Blade,950
+3179,Umbral Glaive,500
+3181,Hullbreaker,225
+3184,Guardian's Hammer,950
+3190,Locket of the Iron Solari,800
+3191,Seeker's Armguard,265
+3193,Gargoyle Stoneplate,1250
+3211,Spectre's Cowl,400
+3222,Mikael's Blessing,550
+3330,Scarecrow Effigy,0
+3340,Stealth Ward,0
+3348,Arcane Sweeper,0
+3349,Lucent Singularity,0
+3363,Farsight Alteration,0
+3364,Oracle Lens,0
+3400,Your Cut,0
+3430,Rite Of Ruin,3000
+3504,Ardent Censer,450
+3508,Essence Reaver,500
+3513,Eye of the Herald,0
+3599,Kalista's Black Spear,0
+3600,Kalista's Black Spear,0
+3742,Dead Man's Plate,900
+3748,Titanic Hydra,800
+3801,Crystalline Bracer,100
+3802,Lost Chapter,315
+3803,Catalyst of Aeons,550
+3814,Edge of Night,1050
+3850,Spellthief's Edge,400
+3851,Frostfang,400
+3853,Shard of True Ice,400
+3854,Steel Shoulderguards,400
+3855,Runesteel Spaulders,400
+3857,Pauldrons of Whiterock,400
+3858,Relic Shield,400
+3859,Targon's Buckler,400
+3860,Bulwark of the Mountain,400
+3862,Spectral Sickle,400
+3863,Harrowing Crescent,400
+3864,Black Mist Scythe,400
+3901,<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>,0
+3902,<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>,0
+3903,<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>,0
+3916,Oblivion Orb,365
+4003,Lifeline,550
+4004,Spectral Cutlass,400
+4005,Imperial Mandate,450
+4010,Bloodletter's Curse,3000
+4011,Sword of Blossoming Dawn,3000
+4012,Sin Eater,3000
+4013,Lightning Braid,3000
+4014,Frozen Mallet,3000
+4015,Perplexity,3000
+4016,Wordless Promise,3000
+4017,Hellfire Hatchet,3000
+4401,Force of Nature,700
+4402,Innervating Locket,600
+4403,The Golden Spatula,687
+4628,Horizon Focus,1050
+4629,Cosmic Drive,815
+4630,Blighting Jewel,665
+4632,Verdant Barrier,115
+4633,Riftmaker,1050
+4635,Leeching Leer,465
+4636,Night Harvester,815
+4637,Demonic Embrace,815
+4638,Watchful Wardstone,1100
+4641,Stirring Wardstone,350
+4642,Bandleglass Mirror,265
+4643,Vigilant Wardstone,1200
+4644,Crown of the Shattered Queen,465
+4645,Shadowflame,700
+6029,Ironspike Whip,225
+6035,Silvermere Dawn,425
+6333,Death's Dance,525
+6609,Chempunk Chainsword,500
+6616,Staff of Flowing Water,450
+6617,Moonstone Renewer,550
+6620,Echoes of Helia,400
+6630,Goredrinker,200
+6631,Stridebreaker,300
+6632,Divine Sunderer,700
+6653,Liandry's Anguish,1200
+6655,Luden's Tempest,1250
+6656,Everfrost,465
+6657,Rod of Ages,215
+6660,Bami's Cinder,200
+6662,Iceborn Gauntlet,700
+6664,Turbo Chemtank,700
+6665,"Jak'Sho, The Protean",800
+6667,Radiant Virtue,600
+6670,Noonquiver,300
+6671,Galeforce,650
+6672,Kraken Slayer,400
+6673,Immortal Shieldbow,625
+6675,Navori Quickblades,400
+6676,The Collector,425
+6677,Rageknife,600
+6691,Duskblade of Draktharr,900
+6692,Eclipse,900
+6693,Prowler's Claw,800
+6694,Serylda's Grudge,650
+6695,Serpent's Fang,625
+6696,Axiom Arc,800
+7000,Sandshrike's Claw,0
+7001,Syzygy,0
+7002,Draktharr's Shadowcarver,0
+7005,Frozen Fist,0
+7006,Typhoon,0
+7009,Icathia's Curse,0
+7010,Vespertide,0
+7011,Upgraded Aeropack,0
+7012,Liandry's Lament,0
+7013,Eye of Luden,0
+7014,Eternal Winter,0
+7015,Ceaseless Hunger,0
+7016,Dreamshatter,0
+7017,Deicide,0
+7018,Infinity Force,0
+7019,Reliquary of the Golden Dawn,0
+7020,Shurelya's Requiem,0
+7021,Starcaster,0
+7023,Equinox,0
+7024,Caesura,0
+7025,Leviathan,0
+7026,The Unspoken Parasite,0
+7027,Primordial Dawn,0
+7028,Infinite Convergence,0
+7029,Youmuu's Wake,0
+7030,Seething Sorrow,0
+7031,Edge of Finality,0
+7032,Flicker,0
+7033,Cry of the Shrieking City,0
+7050,Gangplank Placeholder,0
+8001,Anathema's Chains,800
+8020,Abyssal Mask,700

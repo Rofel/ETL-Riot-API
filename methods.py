@@ -115,7 +115,7 @@ def matchs_df_populate(match):
 
 
 ## Return the list of player related infos, from a match_info file. To populate player_stats_df.
-def player_stats_populate(match,participant,items_df):
+def player_stats_populate(match,participant,items_dict):
     player_stats = []
     
     matchid = match['metadata']['matchId']
@@ -123,7 +123,7 @@ def player_stats_populate(match,participant,items_df):
     participantId = participant['participantId']
     teamId = participant['teamId']
     championId = participant['championId']
-    
+
     
     # Extract additional player stats
     lane = participant['lane']
@@ -155,8 +155,6 @@ def player_stats_populate(match,participant,items_df):
     dragonKills = participant['dragonKills']
     turretKills = participant['turretKills']
 
-    player_stats.extend([matchid,puuid,participantId,teamId,championId, lane, role, individualPosition, teamPosition, timePlayed, championName, championTransform, champExperience, champLevel,win, kills, firstBloodKill, firstBloodAssist, deaths, totalTimeSpentDead, longestTimeSpentLiving, assists,killingSprees, largestKillingSpree, doubleKills, tripleKills, quadraKills, pentaKills, largestMultiKill,unrealKills, baronKills, dragonKills, turretKills])
-
     # Extract additional player stats (continued)
     firstTowerKill = participant['firstTowerKill']
     firstTowerAssist = participant['firstTowerAssist']
@@ -178,19 +176,19 @@ def player_stats_populate(match,participant,items_df):
     goldSpent = participant['goldSpent']
     bountyLevel = participant['bountyLevel']
     item0 = participant['item0']
-    item0Name = items_df[items_df['itemId']==item0]['itemName']
+    item0Name = items_dict.get(participant['item0'])
     item1 = participant['item1']
-    item1Name = items_df[items_df['itemId']==item1]['itemName']                                                
+    item1Name = items_dict.get(participant['item1'])                                                
     item2 = participant['item2']
-    item2Name = items_df[items_df['itemId']==item2]['itemName']                                                
+    item2Name = items_dict.get(participant['item2'])                                                
     item3 = participant['item3']
-    item3Name = items_df[items_df['itemId']==item3]['itemName']                                                
+    item3Name = items_dict.get(participant['item3'])                                                
     item4 = participant['item4']
-    item4Name = items_df[items_df['itemId']==item4]['itemName']                                                
+    item4Name = items_dict.get(participant['item4'])                                                
     item5 = participant['item5']
-    item5Name = items_df[items_df['itemId']==item5]['itemName']                                                
+    item5Name = items_dict.get(participant['item5'])                                                
     item6 = participant['item6']
-    item6Name = items_df[items_df['itemId']==item6]['itemName']                                                
+    item6Name = items_dict.get(participant['item6'])                                                
     itemsPurchased = participant['itemsPurchased']
     consumablesPurchased = participant['consumablesPurchased']
     spell1Casts = participant['spell1Casts']
@@ -204,17 +202,6 @@ def player_stats_populate(match,participant,items_df):
     damageDealtToBuildings = participant['damageDealtToBuildings']
     damageDealtToObjectives = participant['damageDealtToObjectives']
     damageDealtToTurrets = participant['damageDealtToTurrets']
-
-    player_stats.extend([firstTowerKill, firstTowerAssist, turretTakedowns, turretsLost, inhibitorKills, inhibitorTakedowns,
-                        inhibitorsLost, nexusKills, nexusTakedowns, nexusLost, objectivesStolen, objectivesStolenAssists,
-                        totalMinionsKilled, neutralMinionsKilled, totalAllyJungleMinionsKilled, totalEnemyJungleMinionsKilled,
-                        goldEarned, goldSpent, bountyLevel, item0,item0Name, item1, item1Name, item2,item2Name, item3, item3Name,
-                        item4, item4Name, item5,item5Name, item6,item6Name, itemsPurchased,
-                        consumablesPurchased, spell1Casts, spell2Casts, spell3Casts, spell4Casts, summoner1Casts, summoner1Id,
-                        summoner2Casts, summoner2Id, damageDealtToBuildings, damageDealtToObjectives, damageDealtToTurrets
-                        ])
-
-    # Continue from where we left off
 
     # Extracting additional player stats (continued)
     damageSelfMitigated = participant['damageSelfMitigated']
@@ -252,7 +239,18 @@ def player_stats_populate(match,participant,items_df):
     playerSubteamId = participant['playerSubteamId']
 
     # Append the extracted information to the player_stats list
-    player_stats.extend([damageSelfMitigated, magicDamageDealt, magicDamageDealtToChampions, magicDamageTaken,
+    player_stats.extend([matchid,puuid,participantId,teamId,championId, lane, role, individualPosition, teamPosition, timePlayed, 
+                       championName, championTransform, champExperience, champLevel,win, kills, firstBloodKill, firstBloodAssist,
+                       deaths, totalTimeSpentDead,longestTimeSpentLiving, assists,killingSprees, largestKillingSpree, doubleKills,
+                       tripleKills, quadraKills, pentaKills, largestMultiKill,unrealKills, baronKills, dragonKills, turretKills,
+                       firstTowerKill, firstTowerAssist, turretTakedowns, turretsLost, inhibitorKills, inhibitorTakedowns,
+                        inhibitorsLost, nexusKills, nexusTakedowns, nexusLost, objectivesStolen, objectivesStolenAssists,
+                        totalMinionsKilled, neutralMinionsKilled, totalAllyJungleMinionsKilled, totalEnemyJungleMinionsKilled,
+                        goldEarned, goldSpent, bountyLevel, item0,item0Name, item1,item1Name, item2,item2Name, item3, item3Name,
+                       item4,item4Name, item5,item5Name, item6,item6Name, itemsPurchased,
+                        consumablesPurchased, spell1Casts, spell2Casts, spell3Casts, spell4Casts, summoner1Casts, summoner1Id,
+                        summoner2Casts, summoner2Id, damageDealtToBuildings, damageDealtToObjectives, damageDealtToTurrets,
+                       damageSelfMitigated, magicDamageDealt, magicDamageDealtToChampions, magicDamageTaken,
                         physicalDamageDealt, physicalDamageDealtToChampions, physicalDamageTaken, trueDamageDealt,
                         trueDamageDealtToChampions, trueDamageTaken, totalDamageDealt, totalDamageDealtToChampions,
                         largestCriticalStrike, totalDamageShieldedOnTeammates, totalDamageTaken, totalHeal,
