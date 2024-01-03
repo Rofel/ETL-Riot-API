@@ -1,5 +1,5 @@
 # Dados da soloQ brasileira 
-
+##  02/02/2024 - Dados referente a 3047 jogos criados.
 #### O intuito do projeto é aprender a retirar os dados da soloQ através da API da RIOT Games, e após a extração, tratar os dados para armazenamento em um banco de dados mySQL para consulta e manipulação futura.
 
 #### Para facilitar a apresentação, o projeto foi separado em 3 etapas: Extração de dados através da API da RIOT, Manipulação dos dados extraídos e Armazenamento dos dados finais no banco.
